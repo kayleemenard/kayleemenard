@@ -18,6 +18,7 @@ html {
 }
 
 body {
+	background-color: #f1f1f1;
 	margin: 0;
 	width: 100%;
 }
@@ -28,9 +29,19 @@ img {
 	width: 100%;
 }
 
-/* HEADER ********************************************************************/
+/* COLOUR ****************************************************************************************/
+
+.white { color: #f1f1f1; }
+.brown { color: #89591b; }
+.grey { color: #747064; }
+.lt-blue { color: #4a5257; }
+.dk-blue { color: #242424; }
+
+/* HEADER ****************************************************************************************/
 header {
 	margin-bottom: 1.5rem;
+	background-color: #747064;
+	overflow: hidden;
 }
 
 h1 {
@@ -46,9 +57,36 @@ h1 {
 	text-align: center;
 }
 
-/* MAIN **********************************************************************/
+.nav a {
+	color: #f1f1f1;
+	text-decoration: none;
+}
 
-/* FOOTER ********************************************************************/
+.nav a:hover {
+	color: #242424;
+	font-size: 1.2962rem;
+}
+
+.nav a:focus {
+	color: #89591b;
+}
+
+.banner {
+	background-image: url(https://placehold.it/1000x500);
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+	width: 100%
+	overflow: hidden;
+}
+
+/* MAIN ******************************************************************************************/
+
+/* FOOTER ****************************************************************************************/
+footer {
+	background-color: #747064;
+}
+
 .author {
 	text-align: center;
 }
@@ -58,12 +96,31 @@ h1 {
 	text-align: center;
 }
 
+.links a {
+	text-decoration: none;
+}
 
+.links a:hover {
+	color: #242424;
+	font-size: 1.1385rem;
+}
+
+.links a:focus {
+	color: #89591b;
+}
+
+/* MEDIA QUERIES *********************************************************************************/
 @media only screen and (min-width: 25em) {
+	.banner {
+		height: 400px;
+	}
+
 }
 
 @media only screen and (min-width: 38em) {
+	/* HEADER *****************************************/
 	header {
+		height: 100vh;
 		width: 100%;
 		background-image: url(https://placehold.it/2000x500);
 		background-position: center;
@@ -88,12 +145,23 @@ h1 {
 		visibility: hidden;
 	}
 
+	/* FOOTER *****************************************/
 	.author {
 		text-align: left;
 	}
 
 	.links {
 		text-align: right;
+	}
+
+	.links a {
+		display: inline-block;
+		float: right;
+	}
+
+	.links a:hover {
+		color: #4a5257;
+		font-size: 1.2148rem;
 	}
 
 @media only screen and (min-width: 60em) {}
