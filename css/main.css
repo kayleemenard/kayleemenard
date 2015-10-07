@@ -20,6 +20,7 @@ html {
 body {
 	background-color: #f1f1f1;
 	margin: 0;
+	height: 100%;
 	width: 100%;
 }
 
@@ -53,22 +54,33 @@ h1 {
 	width: 100%;
 }
 
-.nav li {
-	text-align: center;
-}
-
 .nav a {
 	color: #f1f1f1;
 	text-decoration: none;
+	width: 100%;
+	padding:1.3rem;
 }
 
 .nav a:hover {
-	color: #242424;
-	font-size: 1.2962rem;
+	color: #747064;
+	padding:1.3rem;
 }
 
-.nav a:focus {
-	color: #89591b;
+.nav li {
+	padding:1.3rem;
+	text-align: center;
+}
+
+.nav li:hover {
+	background-color: #f1f1f1;
+	color: #747064;
+	overflow: hidden;
+}
+
+.nav li:focus {
+	background-color: #89591b;
+	color: #f1f1f1;
+	overflow: hidden;
 }
 
 .banner {
@@ -84,7 +96,13 @@ h1 {
 
 /* FOOTER ****************************************************************************************/
 footer {
+	height: 12rem;
+	width: 100%;
+	padding-top: 1.5rem;
 	background-color: #747064;
+
+	position: absolute;
+	bottom: 0;
 }
 
 .author {
@@ -120,6 +138,8 @@ footer {
 @media only screen and (min-width: 38em) {
 	/* HEADER *****************************************/
 	header {
+	}
+	.full-banner {
 		height: 100vh;
 		width: 100%;
 		background-image: url(https://placehold.it/2000x500);
@@ -136,9 +156,34 @@ footer {
 		display: inline-block;
 	}
 
+	.nav a {
+		padding: 0;
+		color: #f1f1f1;
+		text-decoration: none;
+		width: 100%;
+	}
+
+	.nav a:hover {
+				padding: 1rem 1.3rem 0 0;
+		color: #747064;
+	}
+
 	.nav li {
+		padding: 1rem 1.3rem 0 0;
 		float: right;
-		text-align: right;
+		text-align: center;
+	}
+
+	.nav li:hover {
+		background-color: transparent;
+		color: #747064;
+		overflow: hidden;
+	}
+
+	.nav li:focus {
+		background-color: transparent;
+		color: #f1f1f1;
+		overflow: hidden;
 	}
 
 	.banner {
@@ -162,6 +207,10 @@ footer {
 	.links a:hover {
 		color: #4a5257;
 		font-size: 1.2148rem;
+	}
+
+	footer {
+		height: 5rem;
 	}
 
 @media only screen and (min-width: 60em) {}
