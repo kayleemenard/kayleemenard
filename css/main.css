@@ -84,18 +84,33 @@ h1 {
 }
 
 .banner {
-	background-image: url(https://placehold.it/1000x500);
-	background-position: center;
-	background-size: cover;
 	height: 300px;
 	width: 100%
 	overflow: hidden;
+
+	background-image: url(https://placehold.it/1000x500);
+	background-position: center;
+	background-size: cover;
+}
+
+.banner-btn {
+	margin: 0 auto;
+	width: 100%;
+
+	background-image: url(../images/banner-btn.svg);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 /* MAIN ******************************************************************************************/
-.project-link {
-	height: 100%;
-	width: 100%;
+.project-banner-1 {
+	height: 50vh;
+	width: 100vw;
+	overflow: hidden;
+
+	background-image: url(https://placehold.it/1500x800);
+	background-position: center;
+	background-size: cover;
 }
 
 
@@ -109,6 +124,15 @@ footer {
 
 .author {
 	text-align: center;
+}
+
+.top-btn {
+	height: 25px;
+
+	background-image: url(../images/top-btn.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto;
 }
 
 .links {
@@ -127,6 +151,10 @@ footer {
 
 .links a:focus {
 	color: #89591b;
+}
+
+.links li:last-child {
+	padding-top: 0.6500rem;
 }
 
 /* MEDIA QUERIES *********************************************************************************/
@@ -198,17 +226,22 @@ footer {
 	}
 
 	.links {
-		text-align: right;
+		float: right;
 	}
 
 	.links a {
 		display: inline-block;
-		float: right;
+		float: left;
 	}
 
 	.links a:hover {
 		color: #4a5257;
 		font-size: 1.2148rem;
+	}
+
+	.links li:last-child {
+		padding-top: 0;
+		padding-right: 0.6500rem;
 	}
 
 	footer {
