@@ -123,6 +123,7 @@ h1 {
 footer {
 	height: 12rem;
 	width: 100%;
+	overflow: hidden;
 	padding-top: 1.5rem;
 	background-color: #747064;
 }
