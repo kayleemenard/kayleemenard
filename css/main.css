@@ -39,6 +39,10 @@ img {
 .dk-blue { color: #242424; }
 
 /* SKIP LINKS ************************************************************************************/
+a:focus {
+	outline: 4px solid #89591b;
+}
+
 .skip-links {
 	list-style-type: none;
 	margin: 0;
