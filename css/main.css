@@ -79,6 +79,10 @@ h1 {
 	width: 100%;
 }
 
+.current {
+	font-style: italic;
+}
+
 .nav {
 	width: 100%;
 }
