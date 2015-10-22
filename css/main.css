@@ -226,16 +226,6 @@ footer {
 		text-align: center;
 	}
 
-	.nav li:hover {
-		background-color: transparent;
-		overflow: hidden;
-	}
-
-	.nav li:focus {
-		background-color: transparent;
-		overflow: hidden;
-	}
-
 	/* FOOTER *****************************************/
 	footer {
 		height: 5rem;
