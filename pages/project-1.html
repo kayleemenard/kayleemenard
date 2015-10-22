@@ -1,45 +1,18 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-	<meta charset="utf-8">
-	<title>Kaylee Menard Portfolio</title>
-	<link rel="stylesheet" href="../css/grid.css">
-	<link rel="stylesheet" href="../css/typography.css">
-	<link rel="stylesheet" href="../css/main.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: project.html
+---
 
-	<link href='https://fonts.googleapis.com/css?family=Slabo+27px&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-</head>
-
-<body id="top">
-<!-- Skip Links -->
-	<ul class="skip-links">
-		<li><a href="#nav">Skip to Navigation</a></li>
-		<li><a href="#main">Skip to Main Content</a></li>
-		<li><a href="#footer">Skip to Footer</a></li>
-	</ul>
-	<header class="grid pad-t" id="top">
-		<a class="logotype-top unit xs-1 s-1 m-1-2 l-1-2 gutter" href="index.html">
-			<h1 class="white">Kaylee Menard</h1>
-		</a>
-		<nav class="unit xs-1 s-1 m-1-2 l-1-2" id="nav" role="navigation">
-			<ul class="grid nav">
-				<li class="unit xs-1-2 s-1-2 m-1-4 l-1-4"><a href="../index.html">Portfolio</a></li>
-				<li class="unit xs-1-2 s-1-2 m-1-4 l-1-4"><a href="../about.html">About</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<main id="main" role="main">
+<main id="main" role="main">
+	{% for project-1 in site.data.project-1 %}	
 		<div class="project-banner-1"></div>
 		<div class="grid gutter-1-2 pad-t-2 pad-b-2">
 			<div class="unit xs-1 s-1 m-1 l-1 island-1-2">
-				<h2>Logo Design for Contract Welder</h2>
-				<p>TASK: Create logo for independant welder and farm equipment repairman, in addition create stationary and brand guide.</p> 
-				<p>I was fortunate to be given full creative freedom over the project. I aimed to create a brand that would be unique among the clients competition&mdash;without stepping outside of the norm for branding expectations within the trades&mdash;be considerate of the clients budget constraints as a small contractor, and take his clients interests into account.</p>
+				<h2>{{project-1.name}}</h2>
+				<p>{{project-1.date}}</p>
+				<p>{{project-1.goal}}</p> 
 			</div>
-			<img class="unit xs-1 s-1 m-1-2 l-1-4 island-1-2" src="../images/project-1-6.png" alt="Final Logo Design">
-			<img class="unit xs-1 s-1 m-1-2 l-1-4 island-1-2" src="../images/project-1-3.png" alt="Business Card Design">
+			<img class="unit xs-1 s-1 m-1-2 l-1-4 island-1-2" src="{{project-1.img}}" alt="{{project-1.alt}}">
+			<img class="unit xs-1 s-1 m-1-2 l-1-4 island-1-2" src="{{project-1.img}}" alt="{{project-1.alt}}">
 			<img class="unit xs-1 s-1 m-1-2 l-1-4 island-1-2" src="../images/project-1-2.png" alt="Branding Book Sample A">
 			<img class="unit xs-1 s-1 m-1-2 l-1-4 island-1-2" src="../images/project-1-4.png" alt="Branding Book Sample B">
 		</div>
@@ -52,18 +25,5 @@
 			<img class="unit xs-1 s-1-2 m-1-3 l-1-6 island-1-2" src="../images/project-1-sketches-4.jpeg" alt="Second Round of Logo Sketches C">
 			<img class="unit xs-1 s-1-2 m-1-3 l-1-6 island-1-2" src="../images/project-1-sketches-6.png" alt="Logo Colour Selection">
 		</div>
-	</main>
-
-	<footer class="gutter-1-2" id="footer" role="contentinfo">
-		<div class="grid">
-			<p class="unit xs-1 s-1 m-1-2 l-2-3 gutter-1-2 author white">Created by Kaylee Menard</p>
-			<ul class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2 links">
-				<li><a class="gutter-1-2 white" href="https://www.behance.net/KayleeMenard" alt="Visit Behance Portfolio">Behance</a></li>
-				<li><a class="gutter-1-2 white" href="https://instagram.com/skaylesdoodles/" alt="Visit Instagram Page">Instagram</a></li>
-				<li><a class="gutter-1-2 white" href="https://ca.linkedin.com/in/meetkayleemenard" alt="Visit LinkedIn Profile">LinkedIn</a></li>
-				<li><a href="#top" class="gutter-1-2 top-btn" alt="Navigate back to top of page"></a></li>
-			</ul>
-		</div>	
-	</footer>
-</body>
-</html>
+	{% endfor %}	
+</main>
