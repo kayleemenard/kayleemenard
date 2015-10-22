@@ -1,28 +1,18 @@
 --- 
-- banner: project-1-5.png
+- banner: project-1-banner.png
   date: "Spring 2015"
   goal: "Created a logo for a contract welder and farm machinery repairman. I then created a stationary set and went on to compile a branding book specifying the various approved uses and applications for the logo."
   images: 
-    - alt: Final logo design in colour and black and white
-      src: project-1-1.com
-    - alt: Business Card design
-      src: project-1-3.png
-    - alt: Sample from Branding Guide
+      src: project-1-1.png
       src: project-1-2.png
-    - alt: Sample from Branding Guide
+      src: project-1-3.png
       src: project-1-4.png
   name: "Branding for a Contract Worker"
   sketches: 
-    - alt: only media representing client prior to logo design
-      src: project-1-sketches-7.png
-    - alt: Alternative logo sketches
-      src: project-1-sketches-1.jpeg
-    - alt: Alternative logo sketches
+      src: project-1-sketches-1.png
       src: project-1-sketches-2.jpeg
-    - alt: Early final logo sketches
-      src: project-1-sketches-5.jpeg
-    - alt: Early final logo sketches
+      src: project-1-sketches-3.jpeg
       src: project-1-sketches-4.jpeg
-    - alt: Final logo design colour sampling
+      src: project-1-sketches-5.jpeg
       src: project-1-sketches-6.png
 ---
