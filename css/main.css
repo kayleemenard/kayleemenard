@@ -125,15 +125,7 @@ h1 {
 	background-repeat: no-repeat;
 }
 /* MAIN ******************************************************************************************/
-.project-banner-1 {
-	height: 50vh;
-	width: 100vw;
-	overflow: hidden;
 
-	background-image: url(../images/project-1-5.png);
-	background-position: center;
-	background-size: cover;
-}
 
 /* FOOTER ****************************************************************************************/
 footer {
@@ -220,14 +212,12 @@ footer {
 
 	.nav a {
 		padding: 0;
-		color: #f1f1f1;
 		text-decoration: none;
 		width: 100%;
 	}
 
 	.nav a:hover {
-				padding: 1rem 1.3rem 0 0;
-		color: #747064;
+		padding: 1rem 1.3rem 0 0;
 	}
 
 	.nav li {
@@ -238,13 +228,11 @@ footer {
 
 	.nav li:hover {
 		background-color: transparent;
-		color: #747064;
 		overflow: hidden;
 	}
 
 	.nav li:focus {
 		background-color: transparent;
-		color: #f1f1f1;
 		overflow: hidden;
 	}
 
