@@ -1,0 +1,4 @@
+	<url>
+		<loc>https://kayleemenard.ca/{{site.baseurl}}{{include.entry.url}}</loc>
+		<priority>0.5</priority>
+	</url>
