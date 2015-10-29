@@ -1,0 +1,23 @@
+                            
+/* TEAM */
+
+                            
+Designer and Developper: Kaylee Menard
+Site: https://kayleemenard.ca    
+Twitter: @SkaylesDoodles    
+Location: Ottawa, Canada
+
+
+
+---
+  
+
+
+/* SITE */
+
+ 
+Standards: HTML5, CSS3
+
+Software: 
+	- Github
+	- Sublime Text

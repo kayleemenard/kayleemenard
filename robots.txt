@@ -1,0 +1,3 @@
+Sitemap: httpss://kayleemenard.ca/sitemap.xml
+
+User-agent: *
