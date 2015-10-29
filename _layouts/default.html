@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="{{page.meta}}">
+	{% include opengraph.xml %}
 
 	<link href='https://fonts.googleapis.com/css?family=Slabo+27px&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
@@ -23,12 +24,12 @@
 
 <!-- Nav & Banner -->	
 	<header class="grid pad-t full-banner">
-		<a class="wordmark unit xs-1 s-1 m-1-2 l-1-2 gutter" href="{{site.baseurl}}/index.html">
+		<a class="wordmark unit xs-1 s-1 m-1-2 l-1-2 gutter" href="{{site.baseurl}}/index.html" rel="home">
 			<img src="{{site.baseurl}}/images/wordmark.svg" alt="Kaylee's Wordmark">
 		</a>
 		<nav class="unit xs-1 s-1 m-1-2 l-1-2" id="nav" role="navigation">
 			<ul class="grid nav">
-				<li class="unit xs-1-2 s-1-2 m-1-4 l-1-4"><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}">Portfolio</a></li>
+				<li class="unit xs-1-2 s-1-2 m-1-4 l-1-4"><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}" rel="home">Portfolio</a></li>
 				<li class="unit xs-1-2 s-1-2 m-1-4 l-1-4"><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}current{% endif %}">About</a></li>
 			</ul>
 		</nav>
@@ -43,9 +44,9 @@
 		<div class="grid">
 			<p class="unit xs-1 s-1 m-1-2 l-2-3 gutter-1-2 author white">Created by Kaylee Menard</p>
 			<ul class="unit xs-1 s-1 m-1-2 l-1-3 gutter-1-2 links">
-				<li><a class="gutter-1-2 white" href="https://www.behance.net/KayleeMenard">Behance</a></li>
-				<li><a class="gutter-1-2 white" href="https://instagram.com/skaylesdoodles/">Instagram</a></li>
-				<li><a class="gutter-1-2 white" href="https://ca.linkedin.com/in/meetkayleemenard">LinkedIn</a></li>
+				<li><a class="gutter-1-2 white" href="https://www.behance.net/KayleeMenard" rel="external">Behance</a></li>
+				<li><a class="gutter-1-2 white" href="https://instagram.com/skaylesdoodles/" rel="external">Instagram</a></li>
+				<li><a class="gutter-1-2 white" href="https://ca.linkedin.com/in/meetkayleemenard" rel="external">LinkedIn</a></li>
 				<li><a href="#top" class="gutter-1-2 top-btn"></a></li>
 			</ul>
 		</div>	
