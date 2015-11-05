@@ -125,6 +125,14 @@ h1 {
 	background-repeat: no-repeat;
 }
 /* MAIN ******************************************************************************************/
+.h1-index {
+	height: 0px;
+	margin: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+
 .project-1 {
 	background-image: url(../images/project-1-banner.png);
 	background-position: center;
@@ -211,7 +219,7 @@ h1 {
 }
 
 .project-9 {
-	background-image: url(../images/project-4-1.png);
+	background-image: url(../images/project-9-1.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;	
