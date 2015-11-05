@@ -64,7 +64,7 @@ a:focus {
 }
 /* HEADER ****************************************************************************************/
 header {
-	margin-bottom: 1.5rem;
+	margin-bottom: 0.5rem;
 	background-color: #f1f1f1;
 	overflow: hidden;
 }
@@ -88,14 +88,14 @@ h1 {
 }
 
 .nav a {
-	color: #4a5257;
+	color: #f1f1f1;
 	text-decoration: none;
 	width: 100%;
 	padding:1.3rem;
 }
 
 .nav a:hover {
-	color: #242424;
+	color: #89591b;
 	font-weight: bold;
 	padding:1.3rem;
 }
@@ -106,12 +106,11 @@ h1 {
 	text-align: center;
 }
 
-.banner {
-	height: 300px;
-	width: 100%;
-	overflow: hidden;
+.full-banner {
+	height: 50vh;
 
 	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
@@ -277,9 +276,6 @@ footer {
 
 /* MEDIA QUERIES *********************************************************************************/
 @media only screen and (min-width: 25em) {
-	.banner {
-		height: 400px;
-	}
 }
 
 @media only screen and (min-width: 38em) {
@@ -289,17 +285,9 @@ footer {
 		margin-left: 0;
 	}
 
-	.banner {
-		visibility: hidden;
-	}
-
 	.full-banner {
 		height: 100vh;
 		width: 100%;
-
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
 	}
 
 	h1 {
