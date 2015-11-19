@@ -111,13 +111,13 @@ nav {
 	text-align: center;
 }
 
-/* .full-banner {
+.full-banner {
 	height: 50vh;
 
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-} */
+}
 
 .project-banner {
 	height: 40vh;
