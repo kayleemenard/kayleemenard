@@ -30,6 +30,10 @@ img {
 	width: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* COLOUR ****************************************************************************************/
 
 .white { color: #f1f1f1; }
@@ -152,10 +156,23 @@ nav {
 	text-align: center;
 }
 
+.project-hover div {
+	padding: 1.5rem;
+	opacity: 0;
+}
+
+.project-hover div:hover {
+	background-color: #272727;
+	opacity: 0.7;
+	width: 100%;
+}
+
 .project-name {
-	margin: 50% auto;
+	margin: auto;
+	padding: 0;
 
 	color: #f1f1f1;
+	height: 100%;
 	text-align: center;
 	text-decoration: none;
 }
@@ -170,8 +187,9 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	display: block;
+	display: inline-block;
 	height: 400px;
+	padding: 
 }
 
 .project-2 {
@@ -180,8 +198,9 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	display: block;
+	display: inline-block;
 	height: 400px;
+	padding: 0
 }
 
 .project-3 {
@@ -191,8 +210,9 @@ nav {
 	background-size: cover;
 
 
-	display: block;
-	height: 400px;		
+	display: inline-block;
+	height: 400px;	
+	padding: 0;
 }
 
 .project-4 {
@@ -202,8 +222,9 @@ nav {
 	background-size: cover;		
 
 
-	display: block;
-	height: 400px;	
+	display: inline-block;
+	height: 400px;
+	padding: 0;
 }
 
 .project-5 {
@@ -213,8 +234,9 @@ nav {
 	background-size: cover;	
 
 
-	display: block;
-	height: 400px;		
+	display: inline-block;
+	height: 400px;
+	padding: 0;	
 }
 
 .project-6 {
@@ -224,8 +246,9 @@ nav {
 	background-size: cover;	
 
 
-	display: block;
-	height: 400px;		
+	display: inline-block;
+	height: 400px;
+	padding: 0;	
 }	
 
 .project-7 {
@@ -235,8 +258,9 @@ nav {
 	background-size: cover;		
 
 
-	display: block;
-	height: 400px;	
+	display: inline-block;
+	height: 400px;
+	padding: 0;
 }
 
 .project-8 {
@@ -245,8 +269,9 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;	
 
-	display: block;
-	height: 400px;		
+	display: inline-block;
+	height: 400px;
+	padding: 0;	
 }
 
 .project-9 {
@@ -255,8 +280,9 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;	
 
-	display: block;
-	height: 400px;		
+	display: inline-block;
+	height: 400px;	
+	padding: 0;
 }
 
 /* FOOTER ****************************************************************************************/
