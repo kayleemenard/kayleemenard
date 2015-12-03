@@ -34,6 +34,10 @@ a {
 	text-decoration: none;
 }
 
+.break {
+	line-height: 1rem;
+}
+
 /* COLOUR ****************************************************************************************/
 
 .white { color: #f1f1f1; }
@@ -154,6 +158,10 @@ nav {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
+}
+
+.about-txt {
+	margin: 0 auto;
 }
 
 .project-hover div {
@@ -375,6 +383,10 @@ footer {
 
 	.full-banner {
 		height: 50vh;
+	}
+
+	.about-txt {
+		width: 50vw;
 	}
 
 	/* FOOTER *****************************************/
