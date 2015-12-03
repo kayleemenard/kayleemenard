@@ -65,7 +65,7 @@ a:focus {
 /* HEADER ****************************************************************************************/
 header {
 	margin-bottom: 0.5rem;
-	background-color: #f1f1f1;
+	background-color: #747064;
 	overflow: hidden;
 }
 
@@ -112,8 +112,9 @@ nav {
 }
 
 .full-banner {
-	height: 50vh;
+	min-height: 100vh;
 
+	background-color: #767266;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -124,6 +125,7 @@ nav {
 	overflow: hidden;
 	width: 100%;
 
+	background-color: #747064;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -148,6 +150,14 @@ nav {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
+}
+
+.project-name {
+	margin: 50% auto;
+
+	color: #f1f1f1;
+	text-align: center;
+	text-decoration: none;
 }
 
 .project-info {
@@ -219,7 +229,7 @@ nav {
 }	
 
 .project-7 {
-	background-image: url(../images/project-7-1.jpg);
+	background-image: url(../images/project-7-index.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;		
@@ -335,6 +345,10 @@ footer {
 		padding: 1rem 1.3rem 0 0;
 		float: right;
 		text-align: center;
+	}
+
+	.full-banner {
+		height: 50vh;
 	}
 
 	/* FOOTER *****************************************/
