@@ -81,12 +81,16 @@ header {
 	max-height: 200px;
 	width: 150px;
 	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
 }
 
 .wordmark-project {
-	max-height: 200px;
 	width: 150px;
-	margin: 0 auto;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: auto;
+	margin-top: 0;
 }
 
 h1 {
@@ -100,27 +104,31 @@ h1 {
 
 nav {
 	max-height: 100px;
+	padding-top: 0;
 }
 
 .nav {
+	margin: 0;
+	overflow: hidden;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .nav a {
 	color: #f1f1f1;
 	text-decoration: none;
 	width: 100%;
-	padding:1.3rem;
+	padding-left:1.3rem;
+	padding-right:1.3rem;
 }
 
 .nav a:hover {
-	color: #89591b;
+	color: #272727;
 	font-weight: bold;
 	padding:1.3rem;
 }
 
 .nav li {
-	padding:1.3rem;
 	cursor: pointer;
 	text-align: center;
 }
@@ -133,7 +141,7 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+/*
 .project-banner {
 	height: 40vh;
 	overflow: hidden;
@@ -144,7 +152,7 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+*/
 .banner-btn {
 	margin: 0 auto;
 
@@ -155,6 +163,7 @@ nav {
 
 .banner-btn:hover {
 	color: #272727;
+	font-weight: bold;
 }
 
 /* MAIN ******************************************************************************************/
@@ -357,17 +366,18 @@ footer {
 @media only screen and (min-width: 38em) {
 	/* HEADER *****************************************/
 	.wordmark {
-		width: 200px;
+		width: 100px;
 		margin-left: 0;
+		padding-left: 1.3rem;
 	}
-
+/*
 	.wordmark-project {
 		max-height: 200px;
 		width: 150px;
 		margin-left: 0;
 		margin-top: 0;
 	}
-
+*/
 	.full-banner {
 		height: 100vh;
 		width: 100%;
@@ -426,7 +436,6 @@ footer {
 
 	.links a:hover {
 		color: #4a5257;
-		font-size: 1.2148rem;
 	}
 
 	.links li:last-child {
