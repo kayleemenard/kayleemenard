@@ -208,6 +208,11 @@ nav {
 	margin: 0 auto;
 }
 
+.project-info h1 {
+	line-height: 1.75rem;
+	margin-bottom: 1rem;
+}
+
 .project-1 {
 	background-image: url(../images/project-1-index.jpg);
 	background-position: center;
@@ -216,7 +221,7 @@ nav {
 
 	display: inline-block;
 	height: 400px;
-	padding: 
+	padding: 0;
 }
 
 .project-2 {
@@ -417,6 +422,10 @@ footer {
 
 	.about-txt {
 		width: 50vw;
+	}
+
+	.project-info {
+		vertical-align: middle;
 	}
 
 	/* FOOTER *****************************************/
