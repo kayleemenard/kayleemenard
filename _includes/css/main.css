@@ -73,7 +73,7 @@ a:focus {
 /* HEADER ****************************************************************************************/
 header {
 	margin-bottom: 0.5rem;
-	background-color: #747064;
+	background-color: #242424;
 	overflow: hidden;
 }
 
@@ -91,6 +91,7 @@ header {
 	margin-left: 0;
 	margin-right: auto;
 	margin-top: 0;
+	overflow: hidden;
 }
 
 h1 {
@@ -116,16 +117,16 @@ nav {
 
 .nav a {
 	color: #f1f1f1;
+	padding: 0;
 	text-decoration: none;
 	width: 100%;
-	padding-left:1.3rem;
-	padding-right:1.3rem;
 }
 
 .nav a:hover {
-	color: #272727;
+	background-color: #242424;
+	color: #89591b;
 	font-weight: bold;
-	padding:1.3rem;
+	padding: 1rem;
 }
 
 .nav li {
@@ -366,8 +367,9 @@ footer {
 @media only screen and (min-width: 38em) {
 	/* HEADER *****************************************/
 	.wordmark {
-		width: 100px;
+		max-width: 100px;
 		margin-left: 0;
+		padding-bottom: 0;
 		padding-left: 1.3rem;
 	}
 /*
@@ -380,6 +382,7 @@ footer {
 */
 	.full-banner {
 		height: 100vh;
+		overflow: hidden;
 		width: 100%;
 	}
 
@@ -389,6 +392,8 @@ footer {
 
 	.nav {
 		display: inline-block;
+		overflow: hidden;
+		padding: 1.3rem;
 	}
 
 	.nav a {
@@ -396,13 +401,12 @@ footer {
 		text-decoration: none;
 		width: 100%;
 	}
-
+/*
 	.nav a:hover {
 		padding: 1rem 1.3rem 0 0;
 	}
-
+*/
 	.nav li {
-		padding: 1rem 1.3rem 0 0;
 		float: right;
 		text-align: center;
 	}
